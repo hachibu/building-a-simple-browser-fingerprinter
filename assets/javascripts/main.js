@@ -45,10 +45,6 @@ function fingerprint() {
     var components = {
       userAgent: navigator.userAgent,
       platform: navigator.platform,
-      language: navigator.language,
-      screenColorDepth: screen.colorDepth,
-      screenAvailHeight: screen.availHeight,
-      screenAvailWidth: screen.availWidth,
       canvas: fingerprintCanvas('Building a Simple Browser Fingerprinter'),
     };
 
