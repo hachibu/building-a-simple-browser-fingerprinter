@@ -1,0 +1,11 @@
+{
+  "name": "lets-create-a-simple-browser-fingerprinter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "0.11.1"
+  },
+  "scripts": {
+    "start": "http-server"
+  }
+}
